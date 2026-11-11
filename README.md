@@ -1,0 +1,30 @@
+# Vehicle Damage Detection App
+
+This ML powered app lets you upload an image of a car and it tells you what kind of damage it has.
+
+![app](App_Screenshot%202026-11-11%20212935.png)
+
+
+### Model Details
+
+1. I used ResNet50 for transfer learning
+2. The model was trained on around 1,700 images with 6 classes below
+   3. Front Normal
+   4. Front Crushed
+   5. Front Breakage
+   6. Rear Normal
+   7. Rear Crushed
+   8. Rear Breakage
+
+The accuracy of the model on the validation set was around 80%.
+
+### Set Up
+1.To get started, first install the dependences using
+```commandline
+pip install -r requirements.txt
+
+```
+2. Run the streamlit app
+   ```command line
+   streamlit run app.py
+   ```
