@@ -9,13 +9,14 @@ The model is trained on third quarter front and rare view hence the picture shou
 ### Model Details
 
 1. I used ResNet50 for transfer learning
-2. The model was trained on around 1,700 images with 6 classes below
-   1.Front Normal
-   2.Front Crushed
-   3.Front Breakage
-   4.Rear Normal
-   5.Rear Crushed
-   6.Rear Breakage
+2. The model was trained on around 1,700 images with 6 classes below:
+
+   1. Front Normal
+   2. Front Crushed
+   3. Front Breakage
+   4. Rear Normal
+   5. Rear Crushed
+   6. Rear Breakage
 
 The accuracy of the model on the validation set was around 80%.
 
