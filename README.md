@@ -1,6 +1,7 @@
 # Vehicle Damage Detection App
 
 This ML powered app lets you upload an image of a car and it tells you what kind of damage it has.
+The model is trained on third quarter front and rare view hence the picture should capture the third quarter front or rare view of a car. 
 
 ![app](App_Screenshot%202026-11-11%20212935.png)
 
